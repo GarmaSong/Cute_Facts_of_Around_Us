@@ -1,5 +1,5 @@
 export default {
-  parser: '@typescript-eslint/parser',
+  parser: ['@typescript-eslint/parser', 'babel-eslint'],
   plugins: ['@typescript-eslint', 'prettier'],
   extends: [
     'airbnb', // or airbnb-base
